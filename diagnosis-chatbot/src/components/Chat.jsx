@@ -28,7 +28,7 @@ const Chat = () => {
 
     try {
       const response = await axios.post(
-        `http://localhost:8000/predict`,
+        `https://healthcare-chatbot-1-jpk8.onrender.com/predict`,
         payload,
         {
           headers: {
