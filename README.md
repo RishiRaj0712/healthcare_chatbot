@@ -41,5 +41,59 @@ This project involves a chatbot that accepts symptoms from the user and returns 
 1. **Clone the repository:**
    ```sh
    git clone https://github.com/RishiRaj0712/healthcare_chatbot.git
-   cd healthcare_chatbot
+   cd healthcare_chatbot 
+   ```   
+
+2. **Install frontend dependencies:**
+   ```sh
+   cd diagnosis-chatbot
+   npm install
+   ```
+
+3. **Install backend dependencies:**
+   ```sh
+   cd ../diagnosis-chatbot-backend
+   npm install
+   ```
+
+### Environment Variables
+   Create a .env file in the diagnosis-chatbot-backend directory and add your Hugging Face API token:
+
+   ```makefile
+   HUGGING_FACE_API_TOKEN=your_hugging_face_api_token
+   ```
+
+### Running the Project
+
+1. **Navigate to the backend directory:**
+   ```sh
+   cd diagnosis-chatbot-backend
+   ````
+
+2. **Start the backend server:**
+   ```sh
+   node index.js
+   ```
+
+### Running the Frontend
+
+1. **Open a new terminal and navigate to the frontend directory:**
+   ```sh
+   cd diagnosis-chatbot
+   ```
+
+2. **Start the frontend development server:**
+   ```sh
+   npm run dev
+   ```
+
+3. Open your browser and navigate to http://localhost:5173 to interact with the chatbot.
+
+
+### License
+This project is licensed under the MIT License.
+
+
+
+
 
