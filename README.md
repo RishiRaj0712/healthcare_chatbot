@@ -2,6 +2,8 @@
 
 A healthcare chatbot that provides medical diagnosis and recommendations based on user input symptoms using a fine-tuned model deployed on Hugging Face.
 
+Check out the deployed [Model ](https://api-inference.huggingface.co/models/utkarshiitr/medicalchatbot3) on Hugging Face.
+
 ## Table of Contents
 - [Overview](#overview)
 - [Features](#features)
