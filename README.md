@@ -4,6 +4,9 @@ A healthcare chatbot that provides medical diagnosis and recommendations based o
 
 Check out the deployed [Model ](https://huggingface.co/utkarshiitr/medicalchatbot3) on Hugging Face.
 
+## Note:- 
+If you are using the deployed app for testing then kindly wait for 40 sec - 50 sec after the first input. It takes around 50sec to restart the server again.
+
 ## Table of Contents
 - [Overview](#overview)
 - [Features](#features)
